@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- header desin -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fiverr.com best seller</title>
+        <meta name="description" content="Best seller freelance services online. Outsource your seller project and get it quickly done and delivered remotely online">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" type="image/png" href="./img/fiver2.png"/>
+        <link rel="stylesheet" href="./img/style.css">
+        <link rel="stylesheet" href="./img/loader.css">
+    </head>
+    <body>
+        <!-- header desin -->
+        <body onload="loaded()">
+            <div class="loader">
+                <div class="c c1"></div>
+                <div class="c c2"></div>
+                <div class="c c3"></div>
+                <div class="c c4"></div>
+                <div class="c c5"></div>
+                <div class="c c6"></div>
+            </div>
+            <script>
+                let loader = document.querySelector(".loader");
+                function loaded() {
+                    loader.classList.add("remove");
+                    setTimeout(() => {
+                        loader.style.display = "none";
+                    }, 1000);
+                }
+            </script>
+
+    <marquee behavior="scroll" direction="down" scrollamount="2"><h1>Fiverr.com best seller</h1></marquee>
     <header class="header">
         <a href="#" class="logo"><span>P</span>rotfolio.</a>
+
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
@@ -30,19 +54,19 @@
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Prosanto Ram</h1>
-            <h3>And I'm a <span>Nodemailer Developer</span></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum excepturi quia ullam delectus voluptate, voluptates qui cum nihil alias possimus, dolore, earum quaerat? Esse quaerat amet quos quis beatae adipisci?</p>
+            <h3>And I'm a <span>NodeJs Developer</span></h3>
+            <p>Create your web application easily with Nodejs for your business. Here you will get any application solution or other web services. I will provide you with all your needs. Make your web beautiful and responsible</p>
             <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook' ></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.facebook.com/sreesusanto.944" target="_blank"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://twitter.com/myyoutu37258771" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.instagram.com/prosantosp" target="_blank"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/sree-prosanto-7957771a4" target="_blank"><i class='bx bxl-linkedin' ></i></a>
             </div>
-            <a href="#" class="btn">Download CV</a>
+            <a href="https://www.freecodecamp.org/certification/prosanto/responsive-web-design" class="btn" target="_blank">Download CV</a>
         </div>
 
         <div class="home-img">
-            <img src="./img/my.png" alt="">
+            <img src="./img/my.png" alt="my photo">
         </div>
     </section>
 
@@ -51,13 +75,13 @@
     <!-- section About -->
     <section class="about" id="about">
         <div class="about-img">
-            <img src="./img/my.png" alt="">
+            <img src="./img/my.png" alt="my img here">
         </div>
 
         <div class="about-content">
             <h2 class="heading">About <span>Me</span></h2>
-            <h3>Frontent Developer!</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eos dolorum rem unde quibusdam in illum laborum earum. Maiores nihil incidunt non veniam cumque? Nostrum quo deserunt dignissimos optio tempora, inventore id facilis cumque nihil blanditiis ex natus et repellat veritatis, eveniet ea possimus molestias totam. Facilis ex eius sequi?</p>
+            <h3><span>Frontent</span> and <span>Nodejs</span> Developer!</h3>
+            <p>I am a front-end and back-end developer. As you know buyers need front-end and back-end support. It's for I will provide you with all of the features you need. I will handle all design and logic. The design will be handled by EJS and the backend with Nodejs.</p>
             <a href="#" class="btn">Read More</a>
         </div>
     </section>
@@ -72,21 +96,21 @@
             <div class="services-box">
                 <i class='bx bx-code-alt'></i>
                 <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa accusamus perspiciatis, velit vitae assumenda magni? Sapiente nesciunt tempore labore.</p>
+                <p>Web development, also known as website development, refers to the tasks associated with creating, building, and maintaining websites and web applications that run online on a browser. It may, however, also include web design, web programming, and database management.</p>
                 <a href="#" class="btn">Read More</a>
             </div>
 
             <div class="services-box">
                 <i class='bx bxl-react'></i>
                 <h3>ReactJs Feature <span>(EJS)</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa accusamus perspiciatis, velit vitae assumenda magni? Sapiente nesciunt tempore labore.</p>
+                <p>React is for Front-end. By creating your web, I will provide you with react base application by EJS. EJS is similar to Reactjs. But EJS is the best performer. Ejs will not crash your app and it will fast your web and EJS connected by Nodejs perfectly. Your web will be faster and more responsive.</p>
                 <a href="#" class="btn">Read More</a>
             </div>
 
             <div class="services-box">
                 <i class='bx bxl-nodejs' ></i>
                 <h3>NodeJs</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa accusamus perspiciatis, velit vitae assumenda magni? Sapiente nesciunt tempore labore.</p>
+                <p>Nodejs is for the backend server. Today the best back-end server language is Nodejs. Nodejs is best for business websites and also e-commerce websites. Nodejs feature is a good, faster, extra-powerful, Web server, understandable for beginners. Create your web's best performance for others.</p>
                 <a href="#" class="btn">Read More</a>
             </div>
         </div>
@@ -99,7 +123,7 @@
 
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="./img/project.png" alt="">
+                <img src="./img/project 1.png" alt="project">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
@@ -108,7 +132,7 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="./img/project.png" alt="">
+                <img src="./img/project 2.png" alt="project">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
@@ -117,7 +141,7 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="./img/project.png" alt="">
+                <img src="./img/project 3.png" alt="project">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
@@ -126,7 +150,7 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="./img/project.png" alt="">
+                <img src="./img/project 4.png" alt="project">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
@@ -135,7 +159,7 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="./img/project.png" alt="">
+                <img src="./img/project 5.png" alt="project">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
@@ -144,7 +168,34 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="./img/project.png" alt="">
+                <img src="./img/project 6.png" alt="project">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./img/project 7.png" alt="project">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./img/project 8.png" alt="project">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./img/project 9.png" alt="project">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptatibus?</p>
@@ -160,16 +211,17 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form action="https://formsubmit.co/d222ba3d693ae8df90b582f37d44a7e9" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address" required>
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Subject">
+                <input type="number" name="number" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="hidden" name="_captcha" value="false">
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
@@ -184,7 +236,7 @@
         </div>
     </footer>
 
-    <script src="./index.js"></script>
+    <script src="./img/index.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 </body>
 </html>
